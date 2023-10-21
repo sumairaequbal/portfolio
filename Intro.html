@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+    .header{
+        position: relative;
+    }
+</style>
+</head>
+<body>
+    <div class="header" >
+       <div class="container">
+        <nav>
+            <img src="logo.png" class="logo"/>
+            <ul class="sidemenu">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./Intro.html">About</a></li>
+                <li><a href="./project.html">Project</a></li>
+
+                <li><a href="./contact.html">Contact</a></li>
+                <i class="fa-solid fa-xmark" id="fa" onclick="closemenu()"></i>
+
+            </ul>
+            <i class="fa-solid fa-bars" id="fa" onclick="openmenu()"></i>
+
+              
+            <div class="social">
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+            
+    </div>
+        </nav>
+
+       </div>
+
+    <div class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col2">
+                   
+                    <h1>About me</h1>Hello,<p> I'm sumaira, a passionate software developer with expertise in JavaScript, and React. Over the years, I've had the privilege of working on a variety of exciting projects, from building e-commerce platforms to crafting responsive web applications. What I love most about coding is the thrill of solving complex problems and the endless possibilities it offers. I believe in the power of collaboration and enjoy working with diverse teams to turn innovative ideas into reality. In my free time, you'll often find me experimenting with new technologies or contributing to open-source projects. My goal is to continue pushing the boundaries of what's possible with code and make a meaningful impact on the world through technology." </p>
+                    
+                    
+                    <div class="titles">
+                        <div class="tab-links active-link" onclick="opentab('skills')">Skills</div>
+                        <div class="tab-links" onclick="opentab('exp')">experaiance</div>
+                        <div class="tab-links" onclick= "opentab('qual')"  >Qualification</div>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>
+                       
+                            <li><span>softereDevelopment</span><br>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="exp">
+                        <ul>
+                            <li><span>Web Development</span><br>
+                            Web app development</li>
+                            <li><span>softereDevelopment</span><br>
+                                building softwere</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="qual">
+                        <ul>
+                            <li><span>Web Development</span><br>
+                            Web app development</li>
+                            <li><span>softereDevelopment</span><br>
+                                building softwere</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    </div>
+    </body>
+    <script src="portfolio.js"></script>
+</body>
+</html>
